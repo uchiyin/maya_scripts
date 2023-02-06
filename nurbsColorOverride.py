@@ -1,3 +1,6 @@
+# Allows user to batch enable drawing overrides on nurbs curves, with prompt screen to input desired index color.
+# Works on all selected nurbs curves or all nurbs curve objects in scene (though would be more functional on all objects in a group - adding that).
+
 from maya import cmds
 
 allObjects = cmds.ls(typ = 'nurbsCurve', l=True, ni=True, o=True, r=True)
