@@ -1,3 +1,4 @@
+# more robust renaming script, allows adding of prefix or suffix.
 from maya import cmds
 
 sel = cmds.ls(sl=True)
